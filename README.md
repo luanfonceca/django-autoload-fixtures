@@ -7,7 +7,7 @@ This library allows you to load initial Fixtures automagically after the `South`
 ##How To use
 1.  Instal this app from Pypi
 
-  `$ pip install autoload_fixtures`
+  `$ pip install django-autoload-fixtures`
 2.   Set the new app inside your `INSTALLED_APPS`.
 
   ```python
