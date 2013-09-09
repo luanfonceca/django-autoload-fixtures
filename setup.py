@@ -2,17 +2,22 @@
 # -*- coding: utf-8 -*-
 from setuptools import setup
 
+try:
+	long_description = file('README.md').read()
+except IOError:
+	long_description = ''
+
 setup(
     name='django-autoload-fixtures',
     version='0.1',
     url='https://github.com/luanfonceca/django-autoload-fixtures',
     license='BSD',
     description='This library allows you to load initial Fixtures automagically after the South migrate your Model.',
-    long_description=file('README.md').read(),
+    long_description=long_description,
     author='Luan Fonseca',
     author_email='luanfonceca@gmail.com',
     classifiers=[
-        'Development Status :: 0 - Alpha',
+        'Development Status :: 3 - Alpha',
         'Environment :: Web Environment',
         'Framework :: Django',
         'Intended Audience :: Developers',

@@ -2,3 +2,5 @@
 *.pot
 *.pyc
 *.egg-info
+build
+dist
