@@ -3,13 +3,13 @@
 from setuptools import setup
 
 try:
-	long_description = file('README.md').read()
+	long_description = file('README.rst').read()
 except IOError:
 	long_description = ''
 
 setup(
     name='django-autoload-fixtures',
-    version='0.1.3',
+    version='0.1.4',
     url='https://github.com/luanfonceca/django-autoload-fixtures',
     license='BSD',
     description='This library allows you to load initial Fixtures automagically after the South migrate your Model.',
