@@ -9,7 +9,7 @@ except IOError:
 
 setup(
     name='django-autoload-fixtures',
-    version='0.1',
+    version='0.1.3',
     url='https://github.com/luanfonceca/django-autoload-fixtures',
     license='BSD',
     description='This library allows you to load initial Fixtures automagically after the South migrate your Model.',
@@ -21,7 +21,7 @@ setup(
         'Environment :: Web Environment',
         'Framework :: Django',
         'Intended Audience :: Developers',
-        'License :: OSI Approved :: BSD License',
+        'License :: OSI Approved :: MIT License',
         'Natural Language :: English',
         'Operating System :: OS Independent',
         'Programming Language :: Python',
@@ -34,5 +34,4 @@ setup(
     	'Django>=1.3',
     	'south',
     ],
-    # test_suite='runtests.runtests',
 )
