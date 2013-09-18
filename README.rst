@@ -47,3 +47,9 @@ Migrate your project, using the ``south`` command:
 .. code-block:: bash
 
     $ python manage.py migrate
+
+
+.. image:: https://d2weczhvl823v0.cloudfront.net/luanfonceca/django-autoload-fixtures/trend.png
+   :alt: Bitdeli badge
+   :target: https://bitdeli.com/free
+
